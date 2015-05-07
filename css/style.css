@@ -2449,7 +2449,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 	background: #3a3a3a;
 	color: #868686;
 	margin-top: 1em;
-	padding: 35px 0 30px;
+	padding: 15px 0 10px;
 	position: relative;
 	font-size: .9em;
 }
