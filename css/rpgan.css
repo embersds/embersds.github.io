@@ -1,0 +1,13 @@
+.rpgan {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1) opacity(75%); /* Firefox 35+ */
+  -webkit-filter: grayscale(1) opacity(75%); /* Google Chrome, Safari 6+ & Opera 15+ */
+  max-width: 100px;
+  max-height: 50px;
+}
+
+/* Disable grayscale on hover */
+.rpgan:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
